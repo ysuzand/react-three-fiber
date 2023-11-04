@@ -1,7 +1,7 @@
 const Plate = () => {
 	return (
-		<mesh rotation={[-1, 0, 0]}>
-			<circleGeometry args={[3, 80]}/>
+		<mesh receiveShadow rotation={[0, 0, 0]}>
+			<planeGeometry args={[30, 20]}/>
 			<meshPhongMaterial color="#bab6b6" />
 		</mesh>
 	);
